@@ -1,0 +1,6 @@
+{
+  "name": "Explore Kenya - Tourist Super-App & Guide",
+  "description": "The ultimate mobile-first Kenya tourism platform for discovering destinations, booking safaris & hotels, finding authentic Kenyan food, live currency conversion, offline travel guides, Kiswahili translator, near-me emergency services, and airport arrival assistant.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

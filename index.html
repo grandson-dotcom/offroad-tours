@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Kenya - Tourist Super-App & Guide</title>
+    <meta name="description" content="The premier tourist platform for Kenya. Discover Big 5 safaris, beach lodges, authentic Kenyan food, airport arrival guides, Kiswahili translator, and 24/7 tourist police emergency hotlines." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Explore Kenya - Tourist Super-App & Guide" />
+    <meta property="og:description" content="The ultimate mobile-first Kenya tourism platform for discovering destinations, booking safaris & hotels, finding authentic Kenyan food, live currency conversion, offline travel guides, Kiswahili translator, near-me emergency services, and airport arrival assistant." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Defensive handler for window.fetch property assignments in strict sandboxes
+      try {
+        const desc = Object.getOwnPropertyDescriptor(window, 'fetch') || Object.getOwnPropertyDescriptor(Object.getPrototypeOf(window), 'fetch');
+        if (desc && !desc.set && desc.configurable) {
+          let customFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get() { return customFetch; },
+            set(fn) { customFetch = fn; },
+            configurable: true,
+            enumerable: true
+          });
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
